@@ -38,6 +38,9 @@ const About = () => (
       <p>We are a passionate team of student developers committed to creating innovative digital tools that merge technology with
          creativity. Our project introduces a unique desktop and mobile application that allows users to send secret messages in 
          a secure and creative way.</p>
+         <br />
+         <br />
+         
     </div>
 
   </section>
