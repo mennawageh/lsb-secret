@@ -427,7 +427,7 @@ body {
   .download_buttons div img {
     width: 80px;
   }
-  .navbar {
+  .nav_items {
     display: none; 
   }
 
@@ -522,7 +522,7 @@ body {
 /* For Very Small Screens (max-width: 480px) */
 @media (max-width: 480px) {
   .gradient-text {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .text {
