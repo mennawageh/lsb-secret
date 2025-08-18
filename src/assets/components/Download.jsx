@@ -42,6 +42,7 @@ const Download = () => (
       <a href="#" className="">
         <button>Download App</button>
       </a>
+      <div><br /><br /></div>
     </div>
 
   

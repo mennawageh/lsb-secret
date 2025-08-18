@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Navbar from './assets/components/Navbar';
 import Home from './assets/components/Home';
-import About from './assets/components/About';
-import Download from './assets/components/Download';
-import Features from './assets/components/Features';
+import About from './assets/components/About'
+import Download from './assets/components/Download'
+import Features from './assets/components/Features'
+import BottomNav from './assets/components/bottomnav'
 import './index.css';
 
 
@@ -24,9 +25,10 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white font-sans">
-      <Navbar activePage={activePage} setActivePage={setActivePage} />
-      {renderPage()}
-    </div>
+     <div className="min-h-screen bg-black text-white font-sans">
+    <Navbar activePage={activePage} setActivePage={setActivePage} />
+    {renderPage()}
+    <BottomNav activePage={activePage} setActivePage={setActivePage} />
+  </div>
   );
 }
