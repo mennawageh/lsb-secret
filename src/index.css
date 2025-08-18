@@ -414,9 +414,15 @@ body {
     margin-top: 20px;
   }
 
-  .about_app_content, .features_container {
+  .about_app_content {
     flex-direction: column;
-    gap: 20px;
+  
+  }
+  .features_container { 
+    flex-direction: column;
+    div{width: 80%;}
+    
+   
   }
 
   .download_buttons {
@@ -469,16 +475,12 @@ body {
 
 /* For Mobile (max-width: 768px) */
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    gap: 15px;
+  .navbar .logo {
+    justify-content: center;
+    align-items: center;
   }
 
-  .nav_items {
-    flex-direction: column;
-    gap: 15px;
-    margin-right: 0;
-  }
+ 
 
   .gradient-text {
     font-size: 50px;
@@ -516,6 +518,11 @@ body {
 
   .android_downloading img {
     width: 100px;
+  }
+  .about_page {
+
+    img{display: none;}
+    
   }
 }
 
