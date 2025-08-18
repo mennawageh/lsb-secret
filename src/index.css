@@ -545,6 +545,12 @@ body {
     line-height: 30px;
     width: 95%;
   }
+  .Desktop_downloading h1{
+    font-size: 30px;
+    span{
+      font-size: larger;
+    }
+  }
 
   .about_team_content h1 {
     font-size: 28px;
