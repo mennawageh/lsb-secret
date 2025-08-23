@@ -14,24 +14,10 @@ const Download = () => (
       <div className="download_buttons">
         <div>
           <img src={windows} alt="windows_logo" />
-          <a href="#" className="">
+          <a href="https://github.com/Yasser0Hamoda/LSB_Secret/releases/download/V1.0.0/LSB_Secret_Installer.exe" download>
             <button>Windows </button>
           </a>
         </div>
-        <div> 
-          <img src={linux} alt="linux_logo" />
-          <a href="#" className="">
-          <button>Linux</button>
-        </a></div>
-        <div>  
-          <img src={mac} alt="mac_logo" />
-           <a href="#" className="">
-          <button>Mac</button>
-        </a>
-        </div>
-
-
-
       </div>
 
     </div>
@@ -39,7 +25,7 @@ const Download = () => (
       <h1 className=" ">Download mobile App</h1>
       <p>Click the button below to download the latest version for your phone.</p>
       <img src={android} alt="android_logo" />
-      <a href="#" className="">
+      <a href="https://github.com/Yasser0Hamoda/LSB_Secret/releases/download/V1.0.0/LSB.Secret.apk" className="">
         <button>Download App</button>
       </a>
       <div><br /><br /></div>

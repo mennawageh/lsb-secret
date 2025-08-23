@@ -12,7 +12,7 @@ const Home = ({ onGetItNow }) => {
         <p className="text">welcome to</p>
         <h1 className="gradient-text">L S B</h1>
         <h1 className="gradient-text">SECRET</h1>
-        <p className="text">Protecting your words, pixel by pixel.</p>
+        <p className="text t-2">Protecting your words, pixel by pixel.</p>
         <button
           onClick={onGetItNow}
           className="git_it_button"
@@ -24,6 +24,16 @@ const Home = ({ onGetItNow }) => {
       <div className="home_image">
         <img
           src={web} className='hand_lock_photo' alt="hand_lock." />
+      </div>
+      <div  className="home1-2 home_content "    style={{ display: 'none' }}>
+          <p className="text">Protecting your words, pixel by pixel.</p>
+        <button
+          onClick={onGetItNow}
+          className="button2 git_it_button"
+        
+        >
+          Get it Now  →
+        </button>
       </div>
     </section>
   );
