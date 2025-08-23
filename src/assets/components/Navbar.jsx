@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../img/logo.png';
 
 const Navbar = ({ activePage, setActivePage }) => {
-  const navItems = ['Home', 'About', 'Download', 'Features'];
+  const navItems = ['Home', 'About', 'Download', 'Features', 'Documentation'];
 
   return (
     <nav className="navbar">

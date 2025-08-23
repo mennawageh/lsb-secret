@@ -35,6 +35,13 @@ const BottomNav = ({ activePage, setActivePage }) => {
         <FaDownload />
         <span>Download</span>
       </button>
+      <button
+        className={`nav-item ${activePage === "Documentation" ? "active" : ""}`}
+        onClick={() => setActivePage("Documentation")}>
+        <FaInfoCircle />
+        <span>Docs</span>
+        </button>
+      
     </nav>
   );
 };

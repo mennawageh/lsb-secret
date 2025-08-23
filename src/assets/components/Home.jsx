@@ -7,6 +7,7 @@ import web from '../img/web.png';
 const Home = ({ onGetItNow }) => {
   return (
     <section className="home_page">
+     
       <div className="home_content">
         <p className="text">welcome to</p>
         <h1 className="gradient-text">L S B</h1>
@@ -18,7 +19,7 @@ const Home = ({ onGetItNow }) => {
         >
           Get it Now  →
         </button>
-        <br /><br /><br />
+       
       </div>
       <div className="home_image">
         <img
