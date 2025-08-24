@@ -25,7 +25,7 @@ const Download = () => (
       <h1 className=" ">Download mobile App</h1>
       <p>Click the button below to download the latest version for your phone.</p>
       <img src={android} alt="android_logo" />
-      <a href="https://github.com/Yasser0Hamoda/LSB_Secret/releases/download/V1.0.0/app-arm64-v8a-release.apk" className="">
+      <a href="https://github.com/Yasser0Hamoda/LSB_Secret/releases/download/V1.0.0/app-release.apk" className="">
         <button>Download App</button>
       </a>
       <div><br /><br /></div>
